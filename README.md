@@ -1,30 +1,32 @@
-# HTML Hello
+# Formulario de Pago 
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+![image](https://github.com/user-attachments/assets/90f65493-7a1e-4e14-afdb-3cce4cd38f43)
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+Este proyecto es un formulario de pago simple diseñado con HTML y Bootstrap. Permite a los usuarios ingresar información de pago de manera intuitiva y amigable.
 
-## What to do next?
+## Características
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+- **Interfaz responsiva**: Utiliza Bootstrap para asegurar que el formulario se vea bien en diferentes dispositivos.
+- **Campos de entrada**: Permite la entrada de información como el número de tarjeta, CVC, monto, nombre, apellidos, ciudad, estado y código postal.
+- **Métodos de pago**: Los usuarios pueden seleccionar su método de pago preferido (MasterCard, Visa, Diners Club, American Express).
+- **Área de mensajes**: Incluye un campo de texto para que los usuarios puedan agregar notas o mensajes adicionales.
 
-```bash
-$ pip3 install flask && python3 server.py
-```
+## Estructura del Proyecto
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+- `index.html`: Archivo principal que contiene la estructura del formulario.
+- `styles.css`: Archivo CSS adicional para personalizar el estilo del formulario (puedes agregar estilos aquí si es necesario).
+- **Dependencias**:
+  - Bootstrap 5.2.3 para el diseño responsivo.
+  - Font Awesome para los íconos de tarjetas de crédito.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Instrucciones de Uso
 
-### Contributors
+1. Clona este repositorio o descarga el archivo `index.html`.
+2. Abre el archivo `index.html` en tu navegador web.
+3. Completa los campos del formulario según sea necesario.
+4. Haz clic en el botón "Enviar" para procesar la información (actualmente, el botón no está conectado a un backend).
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
+## Notas
 
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+- Asegúrate de que los campos obligatorios se completen antes de enviar el formulario.
+- La validación de los campos se puede mejorar con JavaScript para proporcionar una mejor experiencia al usuario.
