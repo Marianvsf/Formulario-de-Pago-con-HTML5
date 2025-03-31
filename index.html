@@ -66,21 +66,17 @@
                     <label class="form-label" for="Payment">We accept:</label>
                     <br>
                         <div class="btn-group mb-2" data-toggle="buttons">
-                            <label class="btn btn-secondary">
-                                <input autocomplete="off" checked id="blue" name="options" type="radio">
-                                <i class="fab fa-cc-mastercard"></i>
+                            <label class="btn btn-secondary d-flex align-items-center p-3">
+                                <input autocomplete="off" checked id="blue" name="options" type="radio"><i class="fab fa-cc-mastercard fa-lg"></i>
                             </label> 
-                            <label class="btn btn-secondary">
-                                <input autocomplete="off" id="red" name="options" type="radio">
-                                <i class="fab fa-cc-visa"></i>
+                            <label class="btn btn-secondary d-flex align-items-center">
+                                <input autocomplete="off" id="red" name="options" type="radio"><i class="fab fa-cc-visa fa-lg"></i>
                             </label> 
-                            <label class="btn btn-secondary">
-                                <input autocomplete="off" id="green" name="options" type="radio">
-                                <i class="fab fa-cc-diners-club"></i>
+                            <label class="btn btn-secondary d-flex align-items-center">
+                                <input autocomplete="off" id="green" name="options" type="radio"><i class="fab fa-cc-diners-club fa-lg"></i>
                             </label> 
-                            <label class="btn btn-secondary">
-                                <input autocomplete="off" id="yellow" name="options" type="radio">
-                                <i class="fab fa-cc-amex"></i>
+                            <label class="btn btn-secondary d-flex align-items-center">
+                                <input autocomplete="off" id="yellow" name="options" type="radio"><i class="fab fa-cc-amex fa-lg"></i>
                             </label> 
                         </div>
                     </div>
@@ -90,10 +86,12 @@
                         <small class="text-muted">Add any notes here.</small>
                     </div>
                 </div>
+                <div class="container">
                     <div class="d-flex justify-content-end">
                         <button class="btn btn-secondary me-2" type="reset">Cancel</button> 
                         <button id="sendForm" class="btn btn-primary" type="button">Send</button>
                     </div>
+                </div>
                 </div>
             </form>
         </div>
