@@ -14,7 +14,7 @@ Este proyecto es un formulario de pago simple diseñado con HTML y Bootstrap. Pe
 ## Estructura del Proyecto
 
 - `index.html`: Archivo principal que contiene la estructura del formulario.
-- `styles.css`: Archivo CSS adicional para personalizar el estilo del formulario (puedes agregar estilos aquí si es necesario).
+- `styles.css`: Archivo CSS adicional para personalizar el estilo del formulario.
 - **Dependencias**:
   - Bootstrap 5.2.3 para el diseño responsivo.
   - Font Awesome para los íconos de tarjetas de crédito.
